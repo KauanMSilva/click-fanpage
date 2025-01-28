@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click - Fan Page by Kauan Mariano Silva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Click - Fan Page by Kauan Mariano Silva</h1>
+    </header>
+
+    <div class="container">
+        <section class="movie-info">
+            <img src="https://macmagazine.com.br/wp-content/uploads/2013/09/19-click.jpg" alt="Click Movie Poster">
+            <h2>Resumo</h2>
+            <p class="details">"Click" é um filme de comédia e drama lançado em 2006, dirigido por Frank Coraci e estrelado por Adam Sandler. O enredo segue Michael Newman, um arquiteto sobrecarregado que descobre um controle remoto universal mágico. Com ele, Michael pode controlar o tempo e sua vida, mas logo percebe que brincar com o tempo tem consequências inesperadas. O filme mistura humor com mensagens emocionantes sobre a importância de aproveitar o presente e valorizar a família.</p>
+        </section>
+
+        <section class="images-gallery">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-kmjN_yD-kSRZwAK9JgCtiGSZTu8lvlooQ&s" alt="Cena 1 do filme">
+            <img src="https://cenasdecinema.com/wp-content/uploads/2007/12/Click_destaque2.jpg" alt="Cena 2 do filme">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStWkQh5tYWyO13vojHjeyVQvTxj-blbK3E7-QD_UFeSk8BkoemRLs270MNJlschQU8KTM&usqp=CAU" alt="Cena 3 do filme">
+        </section>
+
+        <section class="cast">
+            <h2>Elenco</h2>
+            <ul>
+                <li>Adam Sandler como Michael Newman</li>
+                <li>Kate Beckinsale como Donna Newman</li>
+                <li>Christopher Walken como Morty</li>
+                <li>David Hasselhoff como Ammer</li>
+                <li>Henry Winkler como Ted Newman</li>
+                <li>Julie Kavner como Trudy Newman</li>
+                <li>Sean Astin como Bill</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Detalhes do Filme</h2>
+            <ul>
+                <li>Ano de lançamento: 2006</li>
+                <li>Direção: Frank Coraci</li>
+                <li>Gênero: Comédia, Drama, Fantasia</li>
+                <li>Duração: 107 minutos</li>
+                <li>Produção: Columbia Pictures</li>
+                <li>Indicações: Academy Award de Melhor Maquiagem</li>
+            </ul>
+        </section>
+
+        <button class="fan-btn" onclick="showFanMessage()">Apoie esta Fan Page</button>
+
+        <p id="fan-message" style="margin-top: 1rem; display: none;">Obrigado por apoiar a fan page de "Click"! - Kauan Mariano Silva</p>
+    </div>
+
+    <footer>
+        <p>Fan Page desenvolvida por Kauan Mariano Silva | Todos os direitos do filme reservados aos produtores.</p>
+    </footer>
+
+    <script>
+        function showFanMessage() {
+            const message = document.getElementById('fan-message');
+            message.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
